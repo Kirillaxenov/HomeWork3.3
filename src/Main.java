@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        CreditPaymentService service = new CreditPaymentService();
+        System.out.println();
+        System.out.println("1 Year");
+        System.out.println(service.calculate(1000000,9.99, 1));
+
+        System.out.println();
+        System.out.println("2 Years");
+        System.out.println(service.calculate(1000000, 9.99, 2));
+
+        System.out.println();
+        System.out.println("3 Years");
+        System.out.println(service.calculate(1000000, 9.99,3));
+
+    }
+}
